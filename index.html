@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" class="logo"></a>
+        <h1 class="title animate__animated animate__fadeInDown">Fit to Fight</h1>
+        <p class="animate__animated animate__fadeInUp">Learn to enjoy the pain,then your body will change</p>
+        <i class="fa fa-bars float-start" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"></i>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+                <button class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav>
+                    <ul>
+                        <li> <a href=" #header">home</a></li>
+                        <li> <a href=" #gallery">Gallery</a></li>
+                        <li> <a href=" #service">Service</a></li>
+                        <li> <a href=" #features">Feature</a></li>
+                        <li> <a href=" #review">review</a></li>
+                        <li> <a href=" #footer">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="container">
+            <div class="welcome text-center  shadow-lg mb-2 p-3 bg-body" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                <h1>welcome</h1>
+                <p>"The fight is won or lost far away from witnesses behind the lines, in the gym, and out there on
+                    the road, long before I dance under those lights."</p>
+                <blockquote>-Muhammed Ali</blockquote>
+                <form action="" method="POST">
+                    <input type="email" class="form-control text-center" placeholder="name@gmail.com">
+                    <button class="common" type="submit">Subscirbe Now </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <h1>Workout gallery</h1>
+
+        <p>"The successful warrior is the average man, with laser-like focus" -Bruce Lee </p>
+        <div id="coverflow">
+            <ul class="flip-item">
+                <li data-flip-title="red">
+                    <img src="img/pic-1.png">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-2.png">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-3.png">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-5.jpeg">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-6.webp">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-4.jpeg">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-7.jpg">
+                </li>
+                <li data-flip-title="red">
+                    <img src="img/pic-8.jpg">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="features">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="img/workout.png" class="img-fluid" data-aos="fade-right" data-aos-offset="500"
+                        data-aos-easing="ease-in-sine">
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h4>Certified Trainers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ipsam officiis aliquam
+                                harum quaerat perferendis debitis delectus</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa fa-heartbeat"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h4>Free Consultion</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ipsam officiis aliquam
+                                harum quaerat perferendis debitis delectus</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h4>Flexible Timing</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ipsam officiis aliquam
+                                harum quaerat perferendis debitis delectus</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="service">
+        <div class="container my-5">
+            <h1 class="border-bottom  border-top p-2 w-50  border-dark text-center">MemberShip offer</h1>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card mb-4" data-aos="fade-right">
+                        <div class="card-header">
+                            <h5 class="mb-0">$70/month</h5>
+                        </div>
+                        <img src="img/pic-7.jpg" alt="HTML5 Tamil" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-3 mt-2">Fitness Training</h4>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-wifi"></i> Free Wifi</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-calendar"></i> Month to Month
+                            </p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-lock"></i> Service Locker
+                                Room</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-clock-o"></i> No Timing
+                                Restriction</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-heartbeat"></i> Free Medical
+                                Consultation
+                            </p>
+                        </div>
+                        <button class="btn-block" id="join">Join Now</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4" id="middle">
+                    <div class="card mb-4" data-aos="fade-down">
+                        <div class="card-header">
+                            <h5 class="mb-0">$99/month</h5>
+                        </div>
+                        <img src="img/pic-8.jpg" alt="HTML5 Tamil" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-3 mt-2">Fitness Training</h4>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-wifi"></i> Free Wifi</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-calendar"></i> Month to Month
+                            </p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-lock"></i> Service Locker
+                                Room</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-clock-o"></i> No Timing
+                                Restriction</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-heartbeat"></i> Free Medical
+                                Consultation
+                            </p>
+                        </div>
+                        <button class="btn-block" id="join">Join Now</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card mb-4" data-aos="fade-left">
+                        <div class="card-header">
+                            <h5 class="mb-0">$80/month</h5>
+                        </div>
+                        <img src="img/pic-2.png" alt="HTML5 Tamil" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title text-center mb-3 mt-2">Fitness Training</h4>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-wifi"></i> Free Wifi</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-calendar"></i> Month to Month
+                            </p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-lock"></i> Service Locker
+                                Room</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-clock-o"></i> No Timing
+                                Restriction</p>
+                            <p class="border-bottom p-2 w-30"><i class="fa fa-heartbeat"></i> Free Medical
+                                Consultation
+                            </p>
+                        </div>
+                        <button class="btn-block" id="join">Join Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="review">
+        <div class="container review shadow-lg">
+            <h1 class="border-bottom  border-top p-2 w-50  border-dark text-center">reviews</h1>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <img src="img/review.png" class="img-fluid">
+                </div>
+                <div class="col-md-6 reviews">
+                    <div class="owl-carousel owl-theme mt-1">
+                        <div class="item">
+                            <h6 class="respond"> Excellent personal training. Trainers who really care and go above and
+                                beyond to help you achieve your goals. Small and private gym that feels more personal.
+                                Highly recommended!<br>
+                                <p><i class="fa fa-twitter mt-1"></i>@Grace</p>
+                            </h6>
+                            <img src="img/women.png">
+                        </div>
+
+                        <div class="item">
+                            <h6 class="respond">Hands down, best choice I’ve made training at (GN). VERY friendly team
+                                who make me actually want to go train. I look forward to walking through the doors and
+                                always feel amazing when I leave<br>
+                                <p><i class="fa fa-twitter mt-1"></i>@Walter</p>
+                            </h6>
+                            <img src="img/man1.jpg">
+                        </div>
+
+                        <div class="item">
+                            <h6 class="respond">I love this place. I highly recommend this place to anyone who wants to
+                                get in shape. The trainers are really awesome and helpful, they make you feel really
+                                comfortable. The 45 min training goes super fast and you really enjoy doing it<br>
+                                <p><i class="fa fa-twitter mt-1"></i>@Thomas Shebly</p>
+                            </h6>
+                            <img src="img/man.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="workout">
+        <div class="container my-5">
+            <h1 class="text-center">Routine Workouts</h1>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text-center">Bench press</h2>
+                    <img src="img/gym guy.gif" class="img-fluid">
+                    <ul>
+                        <li>Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms
+                            facing your feet.</li>
+                        <li> Raise the dumbbells straight up until your elbows are close to being locked and lower them
+                            back
+                            slowly after a short pause.</li>
+                        <li> Breathe out when raising the dumbbells and breathe in when lowering them back.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h2 class="text-center">Triceps Kickback</h2>
+                    <img src="img/gym guy3.gif" class="img-fluid">
+                    <ul>
+                        <li>Push the dumbbell back by extending your elbow and allow it to slowly return after a short
+                            pause.</li>
+                        <li> Keep your upper arm still throughout.</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h2 class="text-center">Inner-Biceps Curl</h2>
+                    <img src="img/gym guy1.gif" class="img-fluid">
+                    <ul>
+                        <li>Stand up and hold one dumbbell with each hand down the side of your body, palms facing each
+                            other.</li>
+                        <li>Raise both dumbbells until they reach your shoulders’ height and slowly lower them down
+                            after a short pause.
+                        </li>
+                        <li>Try NOT to jerk your upper body in an effort to help you lift the weights.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h2 class="text-center">Pull-Ups</h2>
+                    <img src="img/gym guy2.gif" class="img-fluid">
+                    <ul>
+                        <li>Leap up and grip the bar with your hands shoulder width apart and your palms facing away
+                            from you. Hang with your arms fully extended, you can bend your legs at the knee if they’re
+                            dragging on the ground.</li>
+                        <li>Keep your shoulders back and your core engaged throughout. Then pull up. Focus on enlisting
+                            every upper body muscle to aid your upward endeavours.
+                        </li>
+                        <li>Move slowly upward until your chin is above the bar, then equally slowly downward until your
+                            arms are extended again.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="border-top border-bottom w-50 py-2 border-warning">Useful links</h1>
+                    <p><a href="">Blog</a></p>
+                    <p><a href="">Terms</a></p>
+                    <p><a href="">Policy</a></p>
+                    <p><a href="">About us</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1 class="border-top border-bottom w-50 py-2 border-warning">Features</h1>
+                    <p><a href="">Certified Trainers</a></p>
+                    <p><a href="">Flexible Timing</a></p>
+                    <p><a href="">Medical consultation</a></p>
+                    <p><a href="">30 days Free Trial</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1 class="border-top border-bottom w-50 py-2 border-warning">Contact us</h1>
+                    <p><i class="fa fa-phone-square"></i>+91 9087256617</p>
+                    <p><i class="fa fa-envelope"></i> fit2fight@gmail.com</p>
+                    <p><i class="fa fa-home"></i>No.7,The Wall Street,Chennai</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h1 class="border-top border-bottom w-50 py-2 border-warning">Follow us</h1>
+                    <p><i class="fa fa-facebook-official"></i><a href="">Facebook</a></p>
+                    <p><i class="fa fa-youtube-play"></i><a href="">YouTube</a></p>
+                    <p><i class="fa fa-linkedin"></i> <a href="">Linked in</a></p>
+                    <p><i class="fa fa-twitter"></i> <a href="">Twitter</a></p>
+                </div>
+            </div>
+
+            <p class="copyright border-top border-warning py-2">Made by<br><span class="author">Santhosh</span></p>
+        </div>
+    </section>
+
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        var coverflow = $('#coverflow').flipster();
+        var carousel = $('#carousel').flipster({
+            style: 'carousel',
+            spacing: -0.3,
+            nav: true,
+            button: true,
+            start: 'center',
+            items: 3,
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
